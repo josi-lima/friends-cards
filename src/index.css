@@ -1,13 +1,258 @@
-body {
+/* ==================== General Settings ====================*/
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Gabriel Weiss Friends';
+  src: url('GABRWFFR.TTF');
 }
+
+/* ==================== Variables =========================== */
+
+:root {
+  --bg-color-yellow: #ffcc00;
+  --bg-color-blue: #0077ff;
+  --bg-color-purple: #8232ad;
+  --bg-color-red: #b50f0f;
+  --box-shadow-light-gray: 0 5px 10px 0 rgba(114, 111, 111, 0.48), 
+      0 4px 12px 0 rgba(82, 80, 80, 0.46);
+}
+
+/* ================== Body ================================ */
+
+body {
+  background-color: var(--bg-color-purple);
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 2rem;
+}
+
+/* ================== Scrollbar ============================= */
+
+::-webkit-scrollbar {
+  width: 2.8vmin; }
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #000; }
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--bg-color-blue); }
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bg-color-yellow);
+}
+
+/* ================== Media queries ========================= */
+
+@media (max-width: 45rem) {  /* mobile format */
+  .imgTitle { 
+    display: none; 
+  }    
+}
+
+@media (min-width: 45rem) {  /* desktop format */
+  .titleMobile { 
+    display: none; 
+  }    
+}
+
+/* ==================Header ================================= */
+
+/* header-img */
+.headerImg {
+  margin: 0 0 2vmax;
+  width: 100%;
+  border-radius: 0 0 2rem 2rem; /* top-left | top-right | bottom-right | bottom-left */
+}
+
+/* title */
+h1 {
+  font-size: 3vmax;
+  color: var(--bg-color-yellow);
+}
+
+.headline {
+  font: 1.7vmax 'Gabriel Weiss Friends', cursive;
+  letter-spacing: .15rem;
+  color: var(--bg-color-yellow);
+  margin: 2.5vmax;
+}
+
+.titleMobile {   /* mobile only */
+  font: 3rem 'Gabriel Weiss Friends', cursive;
+  letter-spacing: .2rem;
+  margin: 0 2vmax;
+}
+
+/* ===================== Main ============================= */
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+/* ===================== Card ============================= */
+
+.card, .newCard {
+  background-image: url('components/images/img01.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 3vmax;
+}
+
+.card {
+  width: 40rem;
+  height: 45rem;
+}
+
+.newCard {
+  width: 33rem;
+  height: 38rem;
+}
+
+.cardImage {
+  width: 80%;
+  height: 80%;
+  margin-top: -4vmin;
+}
+
+.cardText {
+  font-size: 1.3vmax;
+  color: #fff;
+  line-height: 1.7vmax;
+  white-space: wrap;
+  margin: 17% auto 12%;
+  padding-bottom: 1vmax;
+  width: 50%;
+  /* background glass effect */
+  background: rgba(202, 243, 173, 0.138);
+  box-shadow: 0 4px 30px rgba(23, 250, 15, 0.260);
+  box-shadow: 0 0 60px 1px var(--bg-color-yellow);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); 
+}
+
+.cardName {
+  color: var(--bg-color-yellow);
+  text-transform: capitalize;
+}
+
+.cardQuote {
+  color: var(--bg-color-red);
+  font-weight: 500;
+  margin: .8rem;
+}
+
+.trunfoCard {
+  color: var(--bg-color-red);
+  background-color: var(--bg-color-yellow);
+}
+
+/* ====================== Form ============================== */
+
+.form {
+  color: #fff;
+  font-size: 1.6vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2vmax 1.5vmax;
+}
+
+input, text, textarea, select {
+  font: 1.5vmax 'Roboto', 'Oxygen', 'Ubuntu', 'Helvetica Neue', sans-serif;;
+  margin: 1vmin;
+  padding-left: 1.5vmin;
+  border-radius: .5rem;
+  border-color: var(--bg-color-yellow);
+  outline: none;
+}
+
+input:focus {
+  border: .2rem solid var(--bg-color-blue);
+}
+
+textarea:focus {
+  border: .2rem solid var(--bg-color-blue);
+}
+
+select:focus {
+  border: .2rem solid var(--bg-color-blue);
+}
+
+select {
+  cursor: pointer;
+}
+
+/* checkbox */
+#trunfoInputCheck {
+  accent-color: var(--bg-color-yellow);
+  width: 1.6vmax;
+  height: 1.6vmax;
+  margin-top: 2vmax;
+  cursor: pointer;
+}
+
+/* message informing trunfo card exists */
+.warningInfo {
+  font-size: 1.4vmax;
+  color: var(--bg-color-yellow);
+  margin: 1vmax;
+}
+
+/* ======================= Save-button =========================== */
+
+/* button */
+.btn-save {
+  font: 1.4vmax 'Gabriel Weiss Friends', cursive;
+  font-weight: bold;
+  color: #fff;  
+  background-color: var(--bg-color-yellow);
+  box-shadow: var(--box-shadow-light-gray);
+  margin: 2vmax auto 1vmax;
+  padding: 2vmin;
+  width: 50%;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.btn-save:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.btn-save:disabled {
+  background-color: #9c9577a4;
+  border: 1px solid var(--bg-color-yellow);
+}
+
+/* =================== Delete-button ======================= */
+
+.deleteButton {
+  font: 1.2vmax 'Gabriel Weiss Friends', cursive;
+  color: #fff;  
+  letter-spacing: .2rem;
+  background-color: rgba(155, 13, 13, 0.712);
+  box-shadow: var(--box-shadow-light-gray);
+  margin-top: -15vmax;
+  padding: 1.5vmin;
+  width: 30%;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+/* =================== Footer ============================ */
+
