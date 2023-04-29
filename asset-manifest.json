@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/friends-cards/static/css/main.073c9b0a.css",
-    "main.js": "/friends-cards/static/js/main.a6eecfc0.js",
-    "static/js/787.3e3b72f6.chunk.js": "/friends-cards/static/js/787.3e3b72f6.chunk.js",
-    "static/media/logo.svg": "/friends-cards/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/friends-cards/static/css/main.e70d37f8.css",
+    "main.js": "/friends-cards/static/js/main.c5399a05.js",
+    "static/media/img01.png": "/friends-cards/static/media/img01.136a2076bf8128f58fd8.png",
+    "static/media/headerImg.jpeg": "/friends-cards/static/media/headerImg.d1b7e51b088f0bd95f4d.jpeg",
+    "static/media/GABRWFFR.TTF": "/friends-cards/static/media/GABRWFFR.2eb88da161a9350878b4.TTF",
     "index.html": "/friends-cards/index.html",
-    "main.073c9b0a.css.map": "/friends-cards/static/css/main.073c9b0a.css.map",
-    "main.a6eecfc0.js.map": "/friends-cards/static/js/main.a6eecfc0.js.map",
-    "787.3e3b72f6.chunk.js.map": "/friends-cards/static/js/787.3e3b72f6.chunk.js.map"
+    "main.e70d37f8.css.map": "/friends-cards/static/css/main.e70d37f8.css.map",
+    "main.c5399a05.js.map": "/friends-cards/static/js/main.c5399a05.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a6eecfc0.js"
+    "static/css/main.e70d37f8.css",
+    "static/js/main.c5399a05.js"
   ]
 }
