@@ -19,7 +19,7 @@ class Form extends Component {
     );
     return !hasTrunfo
       ? checkTrunfo
-      : <span className="warningInfo">Você já tem um Super Trunfo em seu baralho</span>;
+      : <span className="warningInfo">You've got a Super Trump Card in your deck!</span>;
   };
 
   render() {
@@ -137,11 +137,11 @@ class Form extends Component {
             <option value="normal" name="options">
               normal
             </option>
-            <option value="raro" name="options">
+            <option value="strong" name="options">
               strong
             </option>
-            <option value="muito raro" name="options">
-              very strong
+            <option value="lifetime" name="options">
+              lifetime
             </option>
           </select>
         </label>

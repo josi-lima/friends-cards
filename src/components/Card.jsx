@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class Card extends Component {
   checkTryunfo = (isTrue) => (
-    isTrue ? <h4 className="trunfoCard" data-testid="trunfo-card">Super Trunfo</h4> : ''
+    isTrue ? <h4 className="trunfoCard" data-testid="trunfo-card">Super Trump</h4> : ''
   );
 
   render() {
@@ -53,13 +53,16 @@ class Card extends Component {
 }
 
 Card.propTypes = {
-  cardName: PropTypes.string.isRequired,
-  cardDescription: PropTypes.string.isRequired,
-  cardAttr1: PropTypes.number.isRequired,
-  cardAttr2: PropTypes.number.isRequired,
-  cardAttr3: PropTypes.number.isRequired,
-  cardImage: PropTypes.string.isRequired,
-  cardRare: PropTypes.string.isRequired,
+  cardName: PropTypes.string,
+  cardDescription: PropTypes.string,
+  cardAttr1: PropTypes.number,
+  cardAttr2: PropTypes.number,
+  cardAttr3: PropTypes.number,
+  cardImage: PropTypes.string,
+  cardRare: PropTypes.string,
+}.isRequired;
+
+Card.propTypes = {
   cardTrunfo: PropTypes.bool,
 };
 

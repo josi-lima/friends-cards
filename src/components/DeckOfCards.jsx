@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class DeckOfCards extends Component {
   checkTryunfo = (isTrue) => (
-    isTrue ? <h4 className="trunfoCard" data-testid="trunfo-card">Super Trunfo</h4> : ''
+    isTrue ? <h4 className="trunfoCard" data-testid="trunfo-card">Super Trump</h4> : ''
   );
 
   render() {
