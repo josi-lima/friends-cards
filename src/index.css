@@ -262,7 +262,7 @@ select {
 
 .box-footer {
   font: .9vmax 'Roboto', sans-serif;
-  padding: 4.3rem 0 1.2rem;
+  padding: 4rem 0 1rem;
   margin: 0;
   text-align: center;
   color: #fff;
@@ -270,7 +270,7 @@ select {
 }
 
 .footerImg {
-  width: 30vmax;
+  width: 35vmax;
   height: 13vmax;
   margin-bottom: -4.4vmax;
 }
