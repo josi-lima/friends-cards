@@ -48,20 +48,6 @@ body {
   background: var(--bg-color-yellow);
 }
 
-/* ================== Media queries ========================= */
-
-@media (max-width: 45rem) {  /* mobile format */
-  .imgTitle { 
-    display: none; 
-  }    
-}
-
-@media (min-width: 45rem) {  /* desktop format */
-  .titleMobile { 
-    display: none; 
-  }    
-}
-
 /* ==================Header ================================= */
 
 /* header-img */
@@ -71,14 +57,8 @@ body {
   border-radius: 0 0 2rem 2rem; /* top-left | top-right | bottom-right | bottom-left */
 }
 
-/* title */
-h1 {
-  font-size: 3vmax;
-  color: var(--bg-color-yellow);
-}
-
 .headline {
-  font: 1.7vmax 'Gabriel Weiss Friends', cursive;
+  font: 1.8vmax 'Gabriel Weiss Friends', cursive;
   letter-spacing: .15rem;
   color: var(--bg-color-yellow);
   margin: 2.5vmax;
@@ -87,6 +67,7 @@ h1 {
 .titleMobile {   /* mobile only */
   font: 3rem 'Gabriel Weiss Friends', cursive;
   letter-spacing: .2rem;
+  color: var(--bg-color-yellow);
   margin: 0 2vmax;
 }
 
@@ -169,7 +150,6 @@ h1 {
   padding: 2vmax;
   background-color: rgba(59, 67, 65, 0.225);
   border-radius: 3.2rem;
-  
 }
 
 input, text, textarea, select {
@@ -200,8 +180,8 @@ select {
 /* checkbox */
 #trunfoInputCheck {
   accent-color: var(--bg-color-yellow);
-  width: 1.6vmax;
-  height: 1.6vmax;
+  width: 1.4rem;
+  height: 1.4rem;
   margin-top: 2vmax;
   cursor: pointer;
 }
@@ -274,7 +254,50 @@ select {
 }
 
 .footerImg {
-  width: 35vmax;
+  width: 33vmax;
   height: 13vmax;
   margin-bottom: -4.4rem;
 }
+
+/* ================== Media queries ========================= */
+
+@media (min-width: 65rem) {  /* desktop format */
+  .titleMobile { 
+    display: none; 
+  }    
+}
+
+@media (max-width: 65rem) {  /* mobile format */
+  .imgTitle { 
+    display: none; } 
+
+  .titleMobile {   /* mobile only */
+    font-size: 8vmax; }
+
+  .headline {
+    font-size: 2.5vmax; }
+
+  .form {
+    font-size: 3.5vmax; }
+
+  input, text, textarea, select {
+    font-size: 2.5vmax; }
+
+  .cardText {
+    font-size: 1.7vmax; }
+
+  .footerImg {
+    width: 40vmax;
+    height: 20vmax;
+  }
+
+  .box-footer {
+    font-size: 1.7vmax; }
+}
+
+@media (max-width: 45rem) {  /* mobile format */
+  .newCard {
+    margin: -8rem 1rem -8rem; }
+}
+
+/* ================================================== */
