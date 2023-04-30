@@ -1,4 +1,7 @@
 /* ==================== General Settings ====================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@500&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -25,7 +28,7 @@
 
 body {
   background-color: var(--bg-color-purple);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Acme', sans-serif;
   text-align: center;
   -webkit-font-smoothing: antialiased;
 }
@@ -122,7 +125,7 @@ h1 {
 }
 
 .cardText {
-  font-size: 1.3vmax;
+  font-size: 1.4vmax;
   color: #fff;
   line-height: 1.7vmax;
   white-space: wrap;
@@ -157,7 +160,7 @@ h1 {
 
 .form {
   color: #fff;
-  font-size: 1.6vmax;
+  font-size: 1.8vmax;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -219,7 +222,7 @@ select {
   color: #fff;  
   background-color: var(--bg-color-yellow);
   box-shadow: var(--box-shadow-light-gray);
-  margin: 2vmax auto 1vmax;
+  margin: 2vmax auto .8vmax;
   padding: 2vmin;
   width: 50%;
   border: none;
@@ -261,7 +264,8 @@ select {
 /* =================== Footer ============================ */
 
 .box-footer {
-  font: 1.1vmax 'Roboto', sans-serif;
+  font: 1.1vmax 'Acme', sans-serif;
+  letter-spacing: .05rem;
   padding: 4rem 0 1rem;
   margin: 0;
   text-align: center;

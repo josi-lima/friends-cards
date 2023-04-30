@@ -11,7 +11,7 @@ class Footer extends Component {
           src={ source } 
           alt={ alternativeText } 
         />
-        <p class="box-footer">Page created with &#x1F499; by &copy; Josie Lima 2023</p>
+        <p className="box-footer">Page created with &#x1F499; by &copy; Josie Lima 2023</p>
       </div>
     )
   }
