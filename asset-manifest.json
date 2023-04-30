@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/friends-cards/static/css/main.7069bf76.css",
+    "main.css": "/friends-cards/static/css/main.907a7ca1.css",
     "main.js": "/friends-cards/static/js/main.8b8e0f5f.js",
     "static/media/img01.png": "/friends-cards/static/media/img01.136a2076bf8128f58fd8.png",
     "static/media/img02.png": "/friends-cards/static/media/img02.d30e90c736279524ac47.png",
     "static/media/headerImg.jpeg": "/friends-cards/static/media/headerImg.d1b7e51b088f0bd95f4d.jpeg",
     "static/media/GABRWFFR.TTF": "/friends-cards/static/media/GABRWFFR.2eb88da161a9350878b4.TTF",
     "index.html": "/friends-cards/index.html",
-    "main.7069bf76.css.map": "/friends-cards/static/css/main.7069bf76.css.map",
+    "main.907a7ca1.css.map": "/friends-cards/static/css/main.907a7ca1.css.map",
     "main.8b8e0f5f.js.map": "/friends-cards/static/js/main.8b8e0f5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7069bf76.css",
+    "static/css/main.907a7ca1.css",
     "static/js/main.8b8e0f5f.js"
   ]
 }
