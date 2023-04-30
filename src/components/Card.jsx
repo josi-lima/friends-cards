@@ -80,7 +80,7 @@ Chandler - https://i.postimg.cc/fRkYDMY9/chandler.png -- I make jokes when I’m
 Joey - https://i.postimg.cc/jj7Nnvgq/joey.png -- How you doing?
 Monica - https://i.postimg.cc/NM8HpFvW/monica.png -- And I have to live with a boy!
 Phoebe - https://i.postimg.cc/rwdR7QLG/phoebe.png -- Smelly Cat, Smelly Cat!
-Rachel - https://i.postimg.cc/rsQt2Hmj/rachel.png -- No uterus, no opinion.
+Rachel - https://i.postimg.cc/rsQt2Hmj/rachel.png -- Maybe, I don't need your money. Wait, maybe!
 Ross - https://i.postimg.cc/3xP0hmKs/ross.png -- We were on a break!
 Mike - https://i.postimg.cc/zBYhCW6C/mike.png -- You’re a strange kind of grown-up!
 Gunther - https://i.postimg.cc/Hsky9TZh/ghunter.png -- Jij hebt seks met ezels!

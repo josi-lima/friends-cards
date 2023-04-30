@@ -287,17 +287,20 @@ select {
     font-size: 1.7vmax; }
 
   .footerImg {
-    width: 40vmax;
-    height: 20vmax;
+    width: 44vmax;
+    height: 22vmax;
   }
 
   .box-footer {
     font-size: 1.7vmax; }
 }
 
-@media (max-width: 45rem) {  /* mobile format */
+@media (max-width: 40rem) {  /* mobile format */
   .newCard {
     margin: -8rem 1rem -8rem; }
+  
+  .Card {
+    margin-bottom: -4rem; }
 }
 
 /* ================================================== */
