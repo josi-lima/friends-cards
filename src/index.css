@@ -261,7 +261,7 @@ select {
 /* =================== Footer ============================ */
 
 .box-footer {
-  font: .9vmax 'Roboto', sans-serif;
+  font: 1.1vmax 'Roboto', sans-serif;
   padding: 4rem 0 1rem;
   margin: 0;
   text-align: center;
