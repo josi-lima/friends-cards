@@ -260,15 +260,17 @@ select {
 
 /* =================== Footer ============================ */
 
-/* Footer */
-
 .box-footer {
-  font: 1vmax 'Roboto', sans-serif;
-  position: relative;
-  padding: 0.57rem;
+  font: .9vmax 'Roboto', sans-serif;
+  padding: 4.3rem 0 1.2rem;
   margin: 0;
   text-align: center;
-  color: #000;
-  background-color: var(--bg-color-yellow);
+  color: #fff;
+  background-color: var(--bg-color-dark-purple);
 }
 
+.footerImg {
+  width: 30vmax;
+  height: 13vmax;
+  margin-bottom: -4.4vmax;
+}

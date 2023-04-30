@@ -5,6 +5,8 @@ import Form from './components/Form';
 import Header from './components/Header';
 import Image from './components/Image';
 import headerImg from './components/images/headerImg.jpeg';
+import footerImg from './components/images/img02.png';
+import Footer from './components/Footer';
 
 class App extends React.Component {
   // determine the initial state of the elements
@@ -167,7 +169,7 @@ class App extends React.Component {
           alternativeText="image of the characters from the sitcom Friends"
         />
         <Header />
-        <section className="mainContainer">
+        <main className="mainContainer">
           <Form
             onInputChange={ this.onInputChange }
             cardName={ cardName }
@@ -199,14 +201,17 @@ class App extends React.Component {
               { ...card }
               removeCard={ this.removeCard }
             />))}
-        </section>
+        </main>
 
-        <footer>
-          <p class="box-footer">Page created with &#x1F499; by &copy; Josie Lima 2023</p>
-        </footer>
+        <Footer
+          source={ footerImg }
+          alternativeText="image of the logo of the café from the sitcom Friends"
+        />
       </>
     );
   }
 }
 
 export default App;
+
+// 
