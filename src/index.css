@@ -293,9 +293,13 @@ select {
 
   .box-footer {
     font-size: 1.7vmax; }
+
+  .warningInfo {
+    font-size: 1.7vmax;
+  }
 }
 
-@media (max-width: 40rem) {  /* mobile format */
+@media (max-width: 35rem) {  /* mobile format */
   .newCard {
     margin: -8rem 1rem -8rem; }
   
