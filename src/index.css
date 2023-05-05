@@ -100,6 +100,12 @@ body {
 }
 
 .cardImage {
+  width: 85%;
+  height: 85%;
+  margin-top: 3vmin;
+}
+
+.newCardImage {
   width: 80%;
   height: 80%;
   margin-top: -4vmin;

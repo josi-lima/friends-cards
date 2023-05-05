@@ -67,6 +67,41 @@ class App extends React.Component {
   };
 
   // =============================
+  setImage = () => {
+    const { cardName } = this.state;
+    switch (cardName.toUpperCase()) {
+      case 'ROSS': 
+        this.setState({ cardImage: 'https://i.postimg.cc/3xP0hmKs/ross.png'});        
+        break;  
+      case 'CHANDLER':
+        this.setState({ cardImage: 'https://i.postimg.cc/fRkYDMY9/chandler.png'});
+        break;  
+      case 'JOEY':
+        this.setState({ cardImage: 'https://i.postimg.cc/jj7Nnvgq/joey.png'}); 
+        break; 
+      case 'MONICA':
+        this.setState({ cardImage: 'https://i.postimg.cc/NM8HpFvW/monica.png'});
+        break;       
+      case 'PHOEBE': 
+        this.setState({ cardImage: 'https://i.postimg.cc/rwdR7QLG/phoebe.png'});
+        break;       
+      case 'RACHEL':
+        this.setState({ cardImage: 'https://i.postimg.cc/rsQt2Hmj/rachel.png'});
+        break; 
+      case 'MIKE':
+        this.setState({ cardImage: 'https://i.postimg.cc/zBYhCW6C/mike.png'});
+        break; 
+        case 'GHUNTER': 
+        this.setState({ cardImage: 'https://i.postimg.cc/Hsky9TZh/ghunter.png'});
+        break; 
+        case 'JANICE':
+        this.setState({ cardImage: 'https://i.postimg.cc/7PVzz5Vz/janice.png'});
+        break;
+      default:
+    }
+  }   
+    
+  // =============================
 
   // general event handler to handle the state of each element or component
   onInputChange = ({ target }) => {
@@ -77,7 +112,10 @@ class App extends React.Component {
     // this.setState updates the state of the component or element, here the save button
     this.setState({
       [name]: value,
-    }, this.validateFields);
+    }, () => {
+      this.setImage()
+      this.validateFields()
+    });
   };
 
   // Function to delete cards

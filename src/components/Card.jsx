@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { defaultImage } from '../mocks';
 
 class Card extends Component {
   checkTryunfo = (isTrue) => (
@@ -24,7 +25,7 @@ class Card extends Component {
           <img
             className="cardImage"
             data-testid="image-card"
-            src={ cardImage }
+            src={ cardImage ? cardImage : defaultImage }
             alt={ cardName }
           />
           <h3 className="cardName" data-testid="name-card">{ cardName }</h3>

@@ -23,7 +23,7 @@ class DeckOfCards extends Component {
       <section className="newCard">
         <div className="cardText">
           <img
-            className="cardImage"
+            className="newCardImage"
             data-testid="image-card"
             src={ cardImage }
             alt={ cardName }
