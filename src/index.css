@@ -111,6 +111,11 @@ body {
   margin-top: -2vmin;
 }
 
+.newCardImage:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 .cardText {
   font-size: 1.4vmax;
   color: #fff;
