@@ -41,8 +41,8 @@ class App extends React.Component {
         && cardDescription.length > 0
         && cardImage.length > 0;
 
-        const maxScore = 210;
-        const maxSingleScore = 90;
+        const maxScore = 300;
+        const maxSingleScore = 100;
 
         const attrInputs = Number(cardAttr1) >= 0
           && Number(cardAttr1) <= maxSingleScore

@@ -78,7 +78,7 @@ class Form extends Component {
           type="number"
           name="cardAttr1"
           min="0"
-          max="90"
+          max="100"
           value={ cardAttr1 }
           onChange={ onInputChange }
         />
@@ -93,7 +93,7 @@ class Form extends Component {
           type="number"
           name="cardAttr2"
           min="0"
-          max="90"
+          max="100"
           value={ cardAttr2 }
           onChange={ onInputChange }
         />
@@ -108,7 +108,7 @@ class Form extends Component {
           type="number"
           name="cardAttr3"
           min="0"
-          max="90"
+          max="100"
           value={ cardAttr3 }
           onChange={ onInputChange }
         />
