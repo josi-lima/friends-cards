@@ -10,4 +10,7 @@ Project built in React. It consists of a set of cards, based on the game Super T
 
 <strong>[POR]</strong>
 <br>
-Projeto desenvolvido em React. Consiste em um conjunto de cartas, baseado no jogo Super Trump e no seriado de TV, Friends. Aqui, a pessoa usuária é capaz de criar cada carta de um baralho, adicionar e remover cartas, bem como visualizar todas elas após serem adicionadas ao baralho. Também é possível escolher uma única carta que será a carta principal, o "super trunfo" do baralho.
+Projeto desenvolvido em React. Consiste em um conjunto de cartas, baseado no jogo Super Trunfo e no seriado de TV, Friends. Aqui, a pessoa usuária é capaz de criar cada carta de um baralho, adicionar e remover cartas, bem como visualizar todas elas após serem adicionadas ao baralho. Também é possível escolher uma única carta que será a carta principal, o "super trunfo" do baralho.
+
+
+![friends-project-img](https://github.com/josi-lima/friends-cards/assets/108018406/a9c1b2c8-6159-4f33-addf-42593fdb8722)
